@@ -109,9 +109,9 @@ spec:
               protocol: TCP
           resources:
             limits:
-              cpu: 200m
-            requests:
               cpu: 100m
+            requests:
+              cpu: 50m
           volumeMounts:
             - mountPath: /data
               name: elasticsearch-logging
@@ -184,9 +184,9 @@ spec:
               protocol: TCP
           resources:
             limits:
-              cpu: 200m
-            requests:
               cpu: 100m
+            requests:
+              cpu: 50m
 
 ---
 apiVersion: v1
@@ -394,7 +394,7 @@ spec:
             limits:
               memory: 500Mi
             requests:
-              cpu: 100m
+              cpu: 50m
               memory: 200Mi
           volumeMounts:
             - mountPath: /var/log/containers
@@ -6975,10 +6975,10 @@ spec:
           name: node-exporter
           resources:
             limits:
-              cpu: 200m
+              cpu: 100m
               memory: 50Mi
             requests:
-              cpu: 100m
+              cpu: 50m
               memory: 30Mi
           volumeMounts:
             - mountPath: /host/proc
@@ -10682,10 +10682,10 @@ spec:
               name: web
           resources:
             limits:
-              cpu: 200m
+              cpu: 100m
               memory: 200Mi
             requests:
-              cpu: 100m
+              cpu: 50m
               memory: 100Mi
           volumeMounts:
             - mountPath: /etc/grafana/config

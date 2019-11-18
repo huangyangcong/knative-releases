@@ -866,10 +866,10 @@ spec:
               port: 8012
           resources:
             limits:
-              cpu: 200m
+              cpu: 100m
               memory: 600Mi
             requests:
-              cpu: 200m
+              cpu: 50m
               memory: 60Mi
           securityContext:
             allowPrivilegeEscalation: false
@@ -937,10 +937,10 @@ spec:
               name: profiling
           resources:
             limits:
-              cpu: 1000m
+              cpu: 100m
               memory: 1000Mi
             requests:
-              cpu: 100m
+              cpu: 50m
               memory: 100Mi
           securityContext:
             allowPrivilegeEscalation: false
@@ -1037,7 +1037,7 @@ spec:
               port: 8080
           resources:
             limits:
-              cpu: 300m
+              cpu: 100m
               memory: 400Mi
             requests:
               cpu: 30m
@@ -1725,10 +1725,10 @@ spec:
               name: profiling
           resources:
             limits:
-              cpu: 1000m
+              cpu: 100m
               memory: 1000Mi
             requests:
-              cpu: 100m
+              cpu: 50m
               memory: 100Mi
           securityContext:
             allowPrivilegeEscalation: false
@@ -1803,7 +1803,7 @@ spec:
               name: profiling
           resources:
             limits:
-              cpu: 200m
+              cpu: 100m
               memory: 200Mi
             requests:
               cpu: 20m
@@ -2054,10 +2054,10 @@ spec:
               name: profiling
           resources:
             limits:
-              cpu: 200m
+              cpu: 100m
               memory: 1000Mi
             requests:
-              cpu: 100m
+              cpu: 50m
               memory: 100Mi
           securityContext:
             allowPrivilegeEscalation: false
