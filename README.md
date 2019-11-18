@@ -32,7 +32,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory
 
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-activator:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/activator:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-autoscaler:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v0.10.0
-docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-autoscaler-hpa:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpagcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v0.10.0
+docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-autoscaler-hpa:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-queue:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/queue:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-controller:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/controller:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-webhook:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v0.10.0
@@ -46,4 +46,21 @@ docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-sources_co
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-webhook:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory-channel_controller:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory-channel_dispatcher:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher:v0.10.0
+
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-activator:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-autoscaler:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-autoscaler-hpa:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-queue:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-controller:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-webhook:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-networking:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-ingress:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-filter:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-controller:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-cronjob_receive_adapter:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-apiserver_receive_adapter:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-sources_controller:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-webhook:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory-channel_controller:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory-channel_dispatcher:v0.10.0
 ```
