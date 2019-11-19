@@ -3,7 +3,7 @@ knative-releases
 #### 下载
 ```
 wget https://github.com/knative/serving/releases/download/v0.10.0/serving.yaml
-wget https://github.com/knative/eventing/releases/download/v0.10.0/release.yaml
+wget https://github.com/knative/eventing/releases/download/v0.10.1/release.yaml
 wget https://github.com/knative/serving/releases/download/v0.10.0/monitoring.yaml
 ```
 #### 替换
