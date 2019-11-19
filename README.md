@@ -37,11 +37,11 @@ docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-queue:v0.10
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-controller:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/controller:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-webhook:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-networking:v0.10.0 gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio:v0.10.0
-docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-ingress:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress:v0.10.0
-docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-filter:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter:v0.10.0
-docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-controller:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:v0.10.0
-docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-cronjob_receive_adapter:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/cronjob_receive_adapter:v0.10.0
-docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-apiserver_receive_adapter:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v0.10.0
+docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-ingress:v0.10.1 gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress:v0.10.1
+docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-filter:v0.10.1 gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter:v0.10.1
+docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-controller:v0.10.1 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:v0.10.1
+docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-cronjob_receive_adapter:v0.10.1 gcr.io/knative-releases/knative.dev/eventing/cmd/cronjob_receive_adapter:v0.10.1
+docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-apiserver_receive_adapter:v0.10.1 gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:v0.10.1
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-sources_controller:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/sources_controller:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-webhook:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook:v0.10.0
 docker tag registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory-channel_controller:v0.10.0 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller:v0.10.0
@@ -54,11 +54,11 @@ docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-queue:v0.10
 docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-controller:v0.10.0
 docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-webhook:v0.10.0
 docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/serving-networking:v0.10.0
-docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-ingress:v0.10.0
-docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-filter:v0.10.0
-docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-controller:v0.10.0
-docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-cronjob_receive_adapter:v0.10.0
-docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-apiserver_receive_adapter:v0.10.0
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-ingress:v0.10.1
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-broker-filter:v0.10.1
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-controller:v0.10.1
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-cronjob_receive_adapter:v0.10.1
+docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-apiserver_receive_adapter:v0.10.1
 docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-sources_controller:v0.10.0
 docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-webhook:v0.10.0
 docker rmi registry.cn-hangzhou.aliyuncs.com/knative-mirrors/eventing-in_memory-channel_controller:v0.10.0
